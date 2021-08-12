@@ -6,9 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace DIConsoleApp
 {
-    class Program
+    public class Program
     {
-        static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
             // Create a new instance of ServiceCollection.
             var serviceCollection = new ServiceCollection();
